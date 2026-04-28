@@ -19,8 +19,8 @@ let angleA; // the angle of the first segment from A
 let angleB;
 q5.draw = function () {
   circlesDistance = 700;
-  lengthA1 = 550;
-  lengthA2 = 550;
+  lengthA1 = 350;
+  lengthA2 = 350;
   lengthB1 = 350;
   lengthB2 = 350;
   circleAX = -350;
