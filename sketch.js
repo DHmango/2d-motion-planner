@@ -2,7 +2,7 @@
  * Made with q5!
  * https://q5js.org
  */
-await Canvas(1600,1600);
+await Canvas(800,800);
 angleMode(degrees)
 let circlesDistance;
 let circleAX;
@@ -18,14 +18,14 @@ let targetY;
 let angleA; // the angle of the first segment from A
 let angleB;
 q5.draw = function () {
-  circlesDistance = 700;
-  lengthA1 = 350;
-  lengthA2 = 350;
-  lengthB1 = 350;
-  lengthB2 = 350;
-  circleAX = -350;
+  circlesDistance = 600;
+  lengthA1 = 300;
+  lengthA2 = 300;
+  lengthB1 = 300;
+  lengthB2 = 300;
+  circleAX = -300;
   circleAY = -circlesDistance/2;
-  circleBX = -350;
+  circleBX = -300;
   circleBY = circlesDistance/2
   targetX = mouseX;
   targetY = mouseY;
